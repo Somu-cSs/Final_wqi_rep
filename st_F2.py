@@ -120,7 +120,7 @@ if ra == "Analysis":
 
     if rad == 'Vellore':
         st.title("Vellore water quality analysis")
-        df =pd.read_csv("C:/Users/somas/OneDrive/Desktop/vellore_Dy.csv")
+        df =pd.read_csv("https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/vellore_Dy.csv")
         if st.checkbox("View Dataset"):
             st.write(df)
         # Scatter Plot
