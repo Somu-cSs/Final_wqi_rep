@@ -297,7 +297,15 @@ if ra == "Prediction":
          pH : {n_in10}
     """
     )
-    model = pickle.load(open("ridge.pkl", 'rb'))
+    def load_keywords_fromfile():
+    # reading the dictionnary des 15 keyword
+        with open('ridge.pkl', 'rb') as handle: 
+            data = handle.read() 
+        # reconstructing the data as dictionary 
+        lst_keywords_byclass = pickle.loads(data) 
+        return lst_keywords_byclass
+    lst_keywords_byclass = model()
+    #model = pickle.load(open("ridge.pkl", 'rb'))
 
     # input_d=(8.5,200,250,75,50,250,200,500,12,1)
     input_data = (n_in1, n_in2, n_in3, n_in4, n_in5, n_in6, n_in7, n_in8, n_in9, n_in10)
