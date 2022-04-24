@@ -113,6 +113,14 @@ if ra == "Analysis":
 
         # Voilin plot
         if st.checkbox('Statistical Analysis'):
+            st.markdown(
+                f"""
+                            * Median\n
+                            * q1-median of the lower half of the data\n 
+                            * q3-median of the upper half of the data\n
+                            * Maximum and Minimum value
+                            """
+            )
             fig = px.violin(df, x="District/RO", y="wqi")
             st.plotly_chart(fig)
             # st.write(df)
@@ -183,6 +191,14 @@ if ra == "Analysis":
 
         # VIOLIN PLOT
         if st.checkbox('Statistical Analysis'):
+            st.markdown(
+                f"""
+                            * Median\n
+                            * q1-median of the lower half of the data\n 
+                            * q3-median of the upper half of the data\n
+                            * Maximum and Minimum value
+                            """
+            )
             fig = px.violin(df, x="Date", y="wqi")
             st.plotly_chart(fig)
             # st.write(df)
