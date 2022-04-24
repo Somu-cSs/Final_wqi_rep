@@ -298,7 +298,8 @@ if ra == "Prediction":
     """
     )
   
-    model = pickle.load(open("ridge.pkl", 'rb'))
+    with open('Final_wqi_rep/ridge.pkl', 'rb') as model:
+    #model = pickle.load(open("ridge.pkl", 'rb'))
 
     # input_d=(8.5,200,250,75,50,250,200,500,12,1)
     input_data = (n_in1, n_in2, n_in3, n_in4, n_in5, n_in6, n_in7, n_in8, n_in9, n_in10)
