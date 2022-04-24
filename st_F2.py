@@ -299,11 +299,12 @@ if ra == "Prediction":
     )
     def load_keywords_fromfile():
     # reading the dictionnary des 15 keyword
-        with open('ridge.pkl', 'rb') as handle: 
+        with open('Final_wqi_rep/ridge.pkl', 'rb') as handle: 
             data = handle.read() 
         # reconstructing the data as dictionary 
         lst_keywords_byclass = pickle.loads(data) 
         return lst_keywords_byclass
+   
     lst_keywords_byclass = load_keywords_fromfile()
     #model = pickle.load(open("ridge.pkl", 'rb'))
 
