@@ -267,6 +267,13 @@ if ra == "Analysis":
 
         with columns[1]:
             st.plotly_chart(fig3)
+            
+        st.markdown(
+                f"""
+                * From Date vs WQI plot, the WQI value is increasing every year\n
+                * This is because of increase of water pollution every year\n
+                """
+            )    
 
 
         # using Plotly SunBurst
