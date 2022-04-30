@@ -297,7 +297,7 @@ if ra == "Prediction":
     n_in4 = st.sidebar.number_input("Enter the Magnesium :")
     n_in5 = st.sidebar.number_input("Enter the Sodium :")
     n_in6 = st.sidebar.number_input("Enter the Potassium :")
-    n_in7 = st.sidebar.number_input("Enter the Chlorine:")
+    n_in7 = st.sidebar.number_input("Enter the Chloride:")
     n_in8 = st.sidebar.number_input("Enter the Sulphate :")
     n_in9 = st.sidebar.number_input("Enter the F :")
     n_in10 = st.sidebar.number_input("Enter the pH :")
