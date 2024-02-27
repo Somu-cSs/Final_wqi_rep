@@ -22,7 +22,7 @@ if ra == "Analysis":
         l = st.sidebar.radio('Select an option', ['January','February','March','April','May','June','July','August','September','October','November','December'])
         if l =="January":
             # plotting the violin chart
-            df = pd.read_csv("https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/Jan_wqi_2018.csv")
+            df = pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/January_wqi_2018.csv")
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -89,7 +89,7 @@ if ra == "Analysis":
 
         if l == "February":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/Feb_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/February_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -153,7 +153,7 @@ if ra == "Analysis":
                 # st.write(df)
         if l == "March":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/March_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/March_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -217,7 +217,7 @@ if ra == "Analysis":
                 # st.write(df)
         if l =="April":
             # plotting the violin chart
-            df = pd.read_csv("https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/April_wqi_2018.csv")
+            df = pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/April_wqi_2018.csv")
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -284,7 +284,7 @@ if ra == "Analysis":
 
         if l == "May":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/May_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/May_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -348,7 +348,7 @@ if ra == "Analysis":
                 # st.write(df)
         if l == "June":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/June_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/June_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -413,7 +413,7 @@ if ra == "Analysis":
 
         if l =="July":
             # plotting the violin chart
-            df = pd.read_csv("https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/July_wqi_2018.csv")
+            df = pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/July_wqi_2018.csv")
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -480,7 +480,7 @@ if ra == "Analysis":
 
         if l == "August":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/August_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/August_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -544,7 +544,7 @@ if ra == "Analysis":
                 # st.write(df)
         if l == "September":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/Sep_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/September_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -608,7 +608,7 @@ if ra == "Analysis":
                 # st.write(df)
         if l =="October":
             # plotting the violin chart
-            df = pd.read_csv("https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/Oct_wqi_2018.csv")
+            df = pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/October_wqi_2018.csv")
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -675,7 +675,7 @@ if ra == "Analysis":
 
         if l == "November":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/Nov_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/November_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -739,7 +739,7 @@ if ra == "Analysis":
                 # st.write(df)
         if l == "December":
             # plotting the violin chart
-            df = pd.read_csv('https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/Dec_wqi_2018.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/December_wqi_2018.csv')
             if st.checkbox('View dataset'):
                 st.write(df)
 
@@ -808,7 +808,7 @@ if ra == "Analysis":
     if rad == 'Vellore':
         st.subheader("Vellore Water Analysis")
 
-        df = pd.read_csv("https://raw.githubusercontent.com/Somu-Gen/WQI_Streamlit/main/F_Final_vellore_data_wqi.csv")
+        df = pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/F_Final_vellore_data_wqi.csv")
             # st.write(df)
         if st.checkbox('View dataset'):
                 st.write(df)
