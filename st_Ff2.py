@@ -21,7 +21,7 @@ if ra == "Analysis":
         l = st.sidebar.radio('Select an option', ['January','February','March','April','May','June','July','August','September','October','November','December'])
 
         def month(l):
-            url = 'https://raw.githubusercontent.com/Somu-cSs/WQI_Streamlit/main/'+l+'_wqi_2018.csv'
+            url = 'https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/'+l+'_wqi_2018.csv'
             return url
 
         url = month(l)
@@ -128,7 +128,7 @@ if ra == "Analysis":
 
     if rad == 'Vellore':
         st.title("Vellore water quality analysis")
-        df =pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/WQI_Streamlit/main/vellore_Dy.csv")
+        df =pd.read_csv("https://raw.githubusercontent.com/Somu-cSs/Water-Quality-Analysis-and-Prediction./main/vellore_Dy.csv")
         if st.checkbox("View Dataset"):
             st.write(df)
         # Scatter Plot
