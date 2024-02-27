@@ -328,7 +328,11 @@ if ra == "Prediction":
     input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
     prediction = model.predict(input_data_reshaped)
     # st.write('Water Quality Index',prediction)
-    ca = prediction.astype(np.float)
+    #ca = prediction.astype(np.float)
+    if prediction is not None and not np.isnan(prediction):
+        ca = float(prediction)
+    else:
+        ca = None  # or set a default value
     st.title('WQI:')
     st.subheader(ca)
     if 0< prediction <= 25:
